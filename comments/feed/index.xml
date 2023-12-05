@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	
+	>
+<channel>
+	<title>
+	 へのコメント	</title>
+	<atom:link href="/comments/feed/" rel="self" type="application/rss+xml" />
+	<link></link>
+	<description></description>
+	<lastBuildDate>Tue, 05 Dec 2023 05:36:49 +0000</lastBuildDate>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.4.1</generator>
+	<item>
+		<title>
+		WordPress コメントの投稿者 より Hello world! へのコメント		</title>
+		<link>/2023/12/05/hello-world/#comment-1</link>
+
+		<dc:creator><![CDATA[WordPress コメントの投稿者]]></dc:creator>
+		<pubDate>Tue, 05 Dec 2023 05:36:49 +0000</pubDate>
+		<guid isPermaLink="false">/?p=1#comment-1</guid>
+
+					<description><![CDATA[こんにちは、これはコメントです。
+コメントの承認、編集、削除を始めるにはダッシュボードの「コメント」画面にアクセスしてください。
+コメントのアバターは「&lt;a href=&quot;https://ja.gravatar.com/&quot;&gt;Gravatar&lt;/a&gt;」から取得されます。]]></description>
+			<content:encoded><![CDATA[<p>こんにちは、これはコメントです。<br />
+コメントの承認、編集、削除を始めるにはダッシュボードの「コメント」画面にアクセスしてください。<br />
+コメントのアバターは「<a href="https://ja.gravatar.com/">Gravatar</a>」から取得されます。</p>
+]]></content:encoded>
+		
+			</item>
+	</channel>
+</rss>
