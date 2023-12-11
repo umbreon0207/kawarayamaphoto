@@ -1,0 +1,12 @@
+@font-face {
+  font-weight: 500;
+  font-style: normal;
+  font-family: 'Rounded M Plus 1c Bold';
+  src: url(MPLUSRounded1c-Bold.ttf);
+}
+
+* {
+  color: #333333;
+  font-family: 'Rounded M Plus 1c Bold';
+  font-weight: inherit;
+}

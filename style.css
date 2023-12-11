@@ -1,0 +1,95 @@
+/* デフォルトのスタイル */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header {
+  background-color: #5c665c;
+  color: #fff;
+  width: 100%;
+  padding: 1em;
+  display: flex;
+  text-align: center;
+  vertical-align: middle;
+  justify-content: center;
+}
+
+header img {
+  width: 100%; /* 画像を親要素に合わせる */
+  max-width: 350px; /* 画像の最大幅を設定 */
+}
+
+footer {
+  background-color: #5c665c;
+  color: #fff;
+  padding: 1em;
+  text-align: center;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.header_nav {
+  margin-top: 20px; /* メニューとタイトルの間に余白を追加 */
+  margin-left: 480px;
+}
+
+nav {
+  margin-top: 20px; /* メニューとタイトルの間に余白を追加 */
+  margin-right: 20px;
+  padding: 20px 0 0 0;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-wrap: wrap; /* もし横に収まらない場合は折り返す */
+}
+
+li {
+  margin-right: 20px;
+  margin-bottom: 10px; /* メニューアイテムの下に余白を追加 */
+}
+
+/* スマートフォン用のスタイル */
+@media only screen and (max-width: 600px) {
+  header {
+      flex-direction: column;
+      align-items: center;
+  }
+
+  header img {
+      margin-bottom: 20px; /* タイトルの下に余白を追加 */
+  }
+
+  .header_nav {
+      margin: 0; /* タイトルとメニューの間の余白を0に設定 */
+  }
+
+  nav {
+      margin-top: 10px; /* メニューとタイトルの間に余白を追加 */
+  }
+
+  ul {
+      flex-direction: column;
+      align-items: center;
+  }
+
+  li {
+      margin-right: 0;
+      margin-bottom: 10px;
+  }
+}

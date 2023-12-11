@@ -4,67 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>河原山フォトコンテスト</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./font.css">
+    <link rel="stylesheet" href="./index.css">
     <!-- ここに追加のメタ情報やスタイルシートのリンク、スクリプトなどを追加できます -->
-    <style>
-        /* ここにスタイルの定義を追加できます */
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            display: flex;
-            flex-direction: column; /* 縦方向に配置 */
-            justify-content: space-between;
-            align-items: center;
-        }
-        header {
-            background-color: #5c665c;
-            color: #fff;
-            width: 100%;
-            padding: 1em;
-            display: flex;
-            text-align: center;
-            vertical-align: middle;
-            justify-content: center;
-        }
-        header img {
-            width: 350px;
-        }
-        footer {
-            background-color: #5c665c;
-            color: #fff;
-            padding: 1em;
-            text-align: center;
-            position: fixed;
-            bottom: 0;
-            width: 100%;
-        }
-
-
-        a {
-            text-decoration:none;
-            color: black;
-        }
-        .header_nav {
-            margin-left: 400px;
-        }
-        nav {
-            margin-right: 20px; /* <ul>要素の右側のマージンを追加 */
-            padding: 60px 0 0 0;
-        }
-
-        ul {
-            list-style: none;
-            padding: 0 ;
-            margin: 0 ;
-            margin: auto 0 0 0 ; /* 上側にマージンを持たせ、他方向は0にする */
-            display: flex;
-        }
-
-        li {
-            margin-right: 20px; /* メニューアイテムの右側のマージンを追加 */
-        }
-
-    </style>
+    
 </head>
 <body bgcolor="#fafff5">
     <header>
@@ -72,14 +16,30 @@
         <div class="header_nav">
         <nav>
             <ul>
-                <li><a href="#">フォトコンテストに参加</a></li>
-                <li><a href="#">過去の受賞作品を見る</a></li>
-                <li><a href="#">過去の河原山トピックス</a></li>
+                <li><a href="./entry.html">フォトコンテストに参加</a></li>
+                <li><a href="./result.html">過去の受賞作品を見る</a></li>
+                <li><a href="./contact.html">お問い合わせ</a></li>
             </ul>
         </nav>
         </div>
         <!-- ここにヘッダーのコンテンツを追加できます -->
     </header>
+    <h1>当サイトについて</h1>
+    <hr class="cp_hr01" />
+    <p>このサイトは金沢工業大学情報フロンティア学部経営情報学科2年プロジェクトデザイン実践で2班が使用しているサイトです。</p>
+    <div class="wrapper">
+    <div class="main-container">
+        <h2>第1回冬部門の写真を募集します！</h2>
+        <p>【応募条件】河原山町で撮影された写真であること</p>
+        <p>【参加資格】なし</p>
+        <p>【結果発表】2024年3月20日(水)</p>
+        <p>　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　応募は<a href="./entry.html" class="hover">こちら</a>から！</p>
+    </div>
+    <div class="sub-container">
+        <h2>河原山トピックス</h2>
+        <p>--表示する内容はまだありません--</p>
+    </div>
+    </div>
 
     <!-- ここにページの本文コンテンツを追加できます -->
 
@@ -89,3 +49,4 @@
     </footer>
 </body>
 </html>
+

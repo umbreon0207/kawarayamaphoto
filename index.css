@@ -1,0 +1,44 @@
+h1 {
+  margin-bottom: 10px;
+}
+.cp_hr01 {
+	border-width: 1px 150px 0 0;
+	border-style: solid;
+	border-color: #0e4b11;
+}
+
+.wrapper {
+  display: flex;
+  max-width: 1920px; /* 最大幅を指定 */
+  margin: 0 auto; /* センタリングするためのマージン指定 */
+  width: 100%; /* 幅を100%に設定 */
+}
+
+.main-container {
+  flex: 3; /* 2/3の幅を占める */
+  background-color: #f0f0f0;
+  padding: 10px;
+  width: 60%; /* 幅を66.66%に設定 */
+  margin: 0 40px 0 40px;
+}
+
+.sub-container {
+  flex: 2; /* 1/3の幅を占める */
+  background-color: #f0f0f0;
+  padding: 10px;
+  width: 40%; /* 幅を33.33%に設定 */
+  margin: 0 40px 0 0;
+}
+
+h2 {
+  margin-top: 10px;
+}
+
+.hover {
+  text-decoration: underline;
+}
+
+.hover:hover {
+  color: #6ea932;
+  text-decoration: underline;
+}

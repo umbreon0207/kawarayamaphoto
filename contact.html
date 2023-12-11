@@ -6,6 +6,7 @@
     <title>河原山フォトコンテスト</title>
     <link rel="stylesheet" href="./style.css">
     <link rel="stylesheet" href="./font.css">
+    <link rel="stylesheet" href="./contact.css">
     <!-- ここに追加のメタ情報やスタイルシートのリンク、スクリプトなどを追加できます -->
     
 </head>
@@ -23,7 +24,21 @@
         </div>
         <!-- ここにヘッダーのコンテンツを追加できます -->
     </header>
-
+    <h1>お問い合わせ</h1>
+    <hr class="cp_hr01" />
+    <form action="https://docs.google.com/forms/u/0/d/e/1FAIpQLSdUAZjlVY75At3_CHYDRIi-aeyCRT-7K-36nQmgsJLqmmWOcw/formResponse"   method="post" target="hidden_iframe" onsubmit="submitted=true;">
+      <div class="email">
+      <label for="email">メールアドレス</label>
+      <input id="email" type="text" name="entry.1440334583" placeholder="example@mail.co.jp">
+      </div>
+      <div class="contact">
+      <label for="msg">お問い合わせ内容</label>
+      <textarea id="msg" name="entry.315732826" placeholder="お気軽にお問い合わせください。"></textarea>
+      </div>
+      <button type="submit" name="button" value="送信" class="buttonOutlineGradient ">送信</button>
+      </form>
+      <script type="text/javascript">var submitted = false;</script>
+<iframe name="hidden_iframe" id="hidden_iframe" style="display:none;" onload="if(submitted){window.location="https://umbreon0207.github.io/kawarayamaphoto/";}"></iframe>
     <!-- ここにページの本文コンテンツを追加できます -->
 
     <footer>
