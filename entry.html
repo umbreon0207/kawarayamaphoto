@@ -6,6 +6,7 @@
     <title>河原山フォトコンテスト</title>
     <link rel="stylesheet" href="./style.css">
     <link rel="stylesheet" href="./font.css">
+    <link rel="stylesheet" href="./entry.css">
     <!-- ここに追加のメタ情報やスタイルシートのリンク、スクリプトなどを追加できます -->
     
 </head>
@@ -23,17 +24,43 @@
         </div>
         <!-- ここにヘッダーのコンテンツを追加できます -->
     </header>
-    <div>
-      <div>
-      <h1>お問い合わせ 送信完了</h1>
-      <p>
-      お問い合わせありがとうございました。<br>
-      </p>
-      <a href="./index.html">
-      <button type="button">TOPに戻る</button>
-      </a>
-      </div>
-      </div>
+<h1>フォトコンテストに参加</h1>
+<hr class="cp_hr01" />
+<form id="upload_form">
+  <input type="file" id="file_input" />
+  <button type="submit">Upload</button>
+</form>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script>
+  $(document).ready(function(){
+      $('#upload_form').submit(function(e){
+          e.preventDefault();
+          var files = $('#file_input')[0].files;
+          var formData = new FormData();
+          formData.append('file', files[0]);
+          formData.append('upload_preset', 'uploadpreset');
+
+          $.ajax({
+              url: 'https://api.cloudinary.com/v1_1/dof78rbwt/image/upload',
+              type: 'POST',
+              data: formData,
+              processData: false,
+              contentType: false,
+              success: function(data) {
+                  console.log(data);
+                  alert('File uploaded!');
+              },
+              error: function(data) {
+                  console.log(data);
+                  alert('Upload failed');
+              }
+          });
+      });
+  });
+</script>
+
+
     <!-- ここにページの本文コンテンツを追加できます -->
 
     <footer>

@@ -16,6 +16,9 @@
 	border-color: #0e4b11;
 }
 
+h1 {
+  margin-bottom: 10px;
+}
 
 /* buttonタグのリセットCSS（不要な場合、セレクタごと削除してください） */
 button {
