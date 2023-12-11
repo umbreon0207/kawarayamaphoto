@@ -26,11 +26,17 @@
     </header>
 <h1>フォトコンテストに参加</h1>
 <hr class="cp_hr01" />
-<form id="upload_form">
+<form id="upload_form"
+method="post"
+target="hidden_iframe"
+onsubmit="submitted=true;">
   <input type="file" id="file_input" />
   <p>※ファイルの名前を写真のタイトルにしてください</p>
-  <button type="submit" class="buttonOutlineGradient">Upload</button>
+  <button type="submit" id="buttonOutlineGradient" class="buttonOutlineGradient">投稿</button>
 </form>
+
+
+
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 <script>
@@ -59,6 +65,11 @@
           });
       });
   });
+</script>
+<script>
+  document.getElementById('buttonOutlineGradient').onclick = function() {
+           window.location.href = 'https://umbreon0207.github.io/kawarayamaphoto/contact-finish.html';
+       };
 </script>
 
 
