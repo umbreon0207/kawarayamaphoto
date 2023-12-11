@@ -1,0 +1,25 @@
+.autumn_res {
+  width: 30%;
+}
+
+h1 {
+  margin-bottom: 0;
+}
+
+.result_img {
+  width: 25%;
+}
+
+.container {
+  display: flex;
+  max-width: 100%;
+}
+.column {
+  flex: 1;
+  text-align: center;
+  max-width: 100%;
+}
+
+.sample_png {
+  width: 80%;
+}
