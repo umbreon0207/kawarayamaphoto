@@ -68,3 +68,28 @@ h2 {
   color: #6ea932;
   text-decoration: underline;
 }
+
+@media only screen and (max-width: 600px) {
+  .wrapper { display: block;
+			margin: 0;
+		   }
+	p{
+		margin:0 20px 0 20px;
+	}
+	.main-container{
+		margin: 10px;
+		width: 90%;
+	}
+	.sub-container{
+		margin:10px;
+		width: 90%
+	}
+	.sub-container p{
+		margin: 10px;
+	}
+}
+
+
+
+
+
