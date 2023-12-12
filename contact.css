@@ -20,6 +20,10 @@ h1 {
   margin-bottom: 10px;
 }
 
+.button {
+  padding: 0 88px ;
+}
+
 /* buttonタグのリセットCSS（不要な場合、セレクタごと削除してください） */
 button {
   padding: 0;
@@ -30,6 +34,7 @@ button {
   border: none;
   margin-top: 80px;
   margin-bottom: 50px;
+  text-align: center;
 }
 
 /* ボタンのスタイル */
