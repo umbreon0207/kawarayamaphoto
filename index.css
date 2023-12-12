@@ -52,6 +52,10 @@ h1 {
   margin: 0 40px 40px 0;
 }
 
+.topics {
+  width: 100%;
+}
+
 h2 {
   margin-top: 10px;
 }

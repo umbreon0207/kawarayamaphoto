@@ -14,7 +14,8 @@ button {
   cursor: pointer;
   background-color: transparent;
   border: none;
-  margin-top: 50px;
+  margin-top: 250px;
+  margin-bottom: 50px;
 }
 
 /* ボタンのスタイル */
